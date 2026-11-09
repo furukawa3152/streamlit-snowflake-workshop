@@ -1,0 +1,31 @@
+# Streamlit secrets（接続情報・秘密鍵のパス）
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# 環境変数・秘密鍵
+.env
+.env.*
+*.pem
+*.p8
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Streamlit キャッシュなど
+.streamlit/cache/

@@ -1,0 +1,9 @@
+# 勉強会スライドと同じインストール内容（デフォルト）
+streamlit
+snowflake-snowpark-python
+pandas
+
+# 公式チュートリアルの現在の書き方（任意）:
+#   streamlit[snowflake]>=1.66.0
+# 上記 extra は snowflake-snowpark-python[modin] と
+# snowflake-connector-python も入れてくれます。
